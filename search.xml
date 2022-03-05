@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo issue</title>
+      <link href="/2022/03/06/hexo-issue/"/>
+      <url>/2022/03/06/hexo-issue/</url>
+      
+        <content type="html"><![CDATA[<p>全局代理<br>git config –global http.proxy <a href="http://127.0.0.1:xxxx">http://127.0.0.1:xxxx</a><br>取消全局代理<br>git config –global –unset https.proxy</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>new test</title>
       <link href="/2022/03/05/new-test/"/>
       <url>/2022/03/05/new-test/</url>
