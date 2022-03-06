@@ -1,0 +1,18 @@
+#footer {
+    background: #0e2e52;
+/*    需要一定的基础css知识 通过浏览器代码来更改样式*/
+}
+
+/* 鼠标样式 */
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/default.cur),
+    default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/pointer.cur),
+    default;
+}
+.footer-a{
+    color:#0d0d0d;!important;
+}
