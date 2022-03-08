@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>JDBC</title>
+      <link href="/archives/8fe47ff4.html"/>
+      <url>/archives/8fe47ff4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h1><h2 id="SQL分类"><a href="#SQL分类" class="headerlink" title="SQL分类"></a>SQL分类</h2><p>数据库定义语言（DDL Data Definition Language）：创建 删除和修改数据库和数据表的结构 </p><ul><li>CREATE DROP ALTER<br>数据操纵语言（DML Data Manipulation Language）:添加、删除、更新、和查询<br>－ INSERT、DELETE、UPDATE、SELECT</li><li>数据库控制语言（Data Control Language）:<br>－ GRANT、REVOKE、COMMIT、ROLLBACK、SAVEPOINT</li></ul><h2 id="SQL非过程化定义："><a href="#SQL非过程化定义：" class="headerlink" title="SQL非过程化定义："></a>SQL非过程化定义：</h2><ul><li>SQL“<strong>非过程化</strong>”指的是在使用其进行数据操作中，SQL的操作<strong>过程</strong>由DBMS自动完成，用户只需提出“做什么”，而不必知道“怎么做”，无需了解存取路径等。 所以称其为<strong>非过程化</strong>语言。</li><li>MYSQL：大小写Win和Liunx小知识<br>－ W: 大小写不敏感<br>－ L：敏感</li></ul><h2 id="基本的语句："><a href="#基本的语句：" class="headerlink" title="基本的语句："></a>基本的语句：</h2><h3 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h3><ul><li><p>查询<br>- - SELECT FROM …<br>- - FROM …</p></li><li><p>去除重复行 <em>DISTINCT</em><br>  - - SELECT DISTINCT department_id<br>  - - from employees ;</p></li><li><p>列的别名 <em>AS</em><br>- - SELECT last_name AS name,commission_pct comm<br>- - FROM employees;<br>- - SELECT last_name “Name”,salary*12 “Annual Salary”<br>- - FROM employees;</p></li><li><p>过滤数据<br>- - SELECT …<br>- - FROM …<br>- - WHERE …</p></li></ul><h2 id="表的创建"><a href="#表的创建" class="headerlink" title="表的创建"></a>表的创建</h2><h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><h3 id="加减乘除取余和比较运算符"><a href="#加减乘除取余和比较运算符" class="headerlink" title="加减乘除取余和比较运算符"></a>加减乘除取余和比较运算符</h3><h3 id="安全等于运算符"><a href="#安全等于运算符" class="headerlink" title="安全等于运算符"></a>安全等于运算符</h3><ul><li>&lt;&#x3D;&gt;与＝的作用是相似的：区别就是&lt;&#x3D;&gt;可以对NULL＝NULL返回1，其中一个为NULL，返回0；</li></ul><h3 id="空运算符或者非空运算符"><a href="#空运算符或者非空运算符" class="headerlink" title="空运算符或者非空运算符"></a>空运算符或者非空运算符</h3><ul><li>IS NULL 或者 ISNULL </li><li>IS NOT NULL</li></ul><h3 id="最小值和最大值运算符"><a href="#最小值和最大值运算符" class="headerlink" title="最小值和最大值运算符"></a>最小值和最大值运算符</h3><ul><li>LEAST(value1,value2,value3)</li><li>GREATEST(value1,value2,value3)</li></ul><h3 id="BETWEEN-AND和IN以及NOT-IN运算符"><a href="#BETWEEN-AND和IN以及NOT-IN运算符" class="headerlink" title="BETWEEN AND和IN以及NOT IN运算符"></a>BETWEEN AND和IN以及NOT IN运算符</h3><p><code>SELECT ..</code></p><p><code>FROM ...</code></p><p><code>WHERE ... BETWEEN 2500 AND 3500</code>;</p><hr><p><code>SELECT ...</code><br><code>FROM ...</code><br><code>WHERE ... IN(value1,value2,value3);  // NOT IN</code></p><h3 id="LIKE运算符"><a href="#LIKE运算符" class="headerlink" title="LIKE运算符"></a>LIKE运算符</h3><ul><li><p>主要来匹配字符串</p></li><li><p>“%”:匹配0个或者多个字符</p></li><li><p>“_”:匹配单个字符</p></li></ul><p>SELECT first_name<br>FROM employees<br>WHERE first_name LIKE ‘S%’;</p><p>SELECT first_name<br>FROM employees<br>WHERE first_name LIKE ‘_o%’;</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> jdbc </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法题简单题的趣味解法分享</title>
       <link href="/archives/a581e6c5.html"/>
       <url>/archives/a581e6c5.html</url>
