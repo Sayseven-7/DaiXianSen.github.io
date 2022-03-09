@@ -110,14 +110,14 @@
 
   
   <url>
-    <loc>http://daixiansenn.github.io/tags/Mysql/</loc>
+    <loc>http://daixiansenn.github.io/tags/jdbc/</loc>
     <lastmod>2022-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://daixiansenn.github.io/tags/jdbc/</loc>
+    <loc>http://daixiansenn.github.io/tags/Mysql/</loc>
     <lastmod>2022-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -131,14 +131,14 @@
   </url>
   
   <url>
-    <loc>http://daixiansenn.github.io/tags/%E5%90%8E%E7%AB%AF%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://daixiansenn.github.io/tags/simple/</loc>
     <lastmod>2022-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://daixiansenn.github.io/tags/simple/</loc>
+    <loc>http://daixiansenn.github.io/tags/%E5%90%8E%E7%AB%AF%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
